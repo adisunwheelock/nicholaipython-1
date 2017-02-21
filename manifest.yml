@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: nicholaipython
+  host: nicholaipython
+  disk_quota: 1024M
+  services:
+  - Compose for MySQL-eq
+  - availability-monitoring-auto
+  - Language Translator-31
+  - mysql-ky
