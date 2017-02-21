@@ -1,1 +1,6 @@
-this is a test file
+import os
+import json
+
+vcap_services = json.loads(os.getenv('VCAP_SERVICES'))
+
+vcap_services['mysql']
