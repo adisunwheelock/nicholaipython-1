@@ -9,5 +9,4 @@ applications:
   services:
   - Compose for MySQL-eq
   - availability-monitoring-auto
-  - Language Translator-31
-  - mysql-ky
+
