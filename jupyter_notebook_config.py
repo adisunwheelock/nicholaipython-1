@@ -150,7 +150,7 @@ c.NotebookApp.open_browser = False
 #   from notebook.auth import passwd; passwd()
 #
 # The string should be of the form type:salt:hashed-password.
-# c.NotebookApp.password = ''
+c.NotebookApp.password = 'sha1:04feb8b9e2dc:880e0cafee466270439cf9b579ee372f52af6802'
 
 # The kernel spec manager class to use. Should be a subclass of
 # `jupyter_client.kernelspec.KernelSpecManager`.
